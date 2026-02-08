@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff2c7"/>
+      <stop offset="100%" stop-color="#fff9e5"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6c453"/>
+      <stop offset="100%" stop-color="#e29d2f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="650" cy="150" r="80" fill="#ffe19b" opacity="0.7"/>
+  <g transform="translate(230 150)">
+    <rect x="0" y="80" width="260" height="220" rx="36" fill="url(#cup)"/>
+    <rect x="40" y="15" width="180" height="80" rx="30" fill="#fff5d8"/>
+    <ellipse cx="130" cy="125" rx="75" ry="24" fill="#e6a63a"/>
+  </g>
+  <text x="70" y="120" font-family="Georgia, serif" font-size="42" fill="#b4741c">Honey</text>
+</svg>
